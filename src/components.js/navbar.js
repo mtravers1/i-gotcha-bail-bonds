@@ -2,7 +2,7 @@ const Navbar = () =>{
     return(
         <div id="navbar">
             <ul>
-                <span>
+                <span id="title">
                    <span id="pink"> I Gotcha</span><br/> Bail Bond
                 </span>
 

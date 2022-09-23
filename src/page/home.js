@@ -13,11 +13,11 @@ const Home = ()=>{
                 <span>
                 <img id="logo" src={woman} alt="logo" />
                 </span>
-                <span style={{fontSize:"60px"}}>
+                <span id="maintext" >
                     <p >The Go to Bail Bonds Agency <br/> 
                     <span id="pink"> Broward</span>, <span id="pink">Palm Beach</span> and <span id="pink">Miami</span></p>
                 </span>
-                <span style={{fontSize:"24px"}}>
+                <span id="secondarytext" >
                     <p>The Best choice bail bonds agency in Flordia!<br/>
                        Our areas of focus include; Reliability, Peofessionalism and Quality care</p>
                 </span>
