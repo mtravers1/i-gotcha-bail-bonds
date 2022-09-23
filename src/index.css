@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Assistant', sans-serif;}
+ 
+#navbar li{
+ list-style: none;
+ 
+  
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#navbar ul{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+#navbar a{
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#navlist{
+  display: flex;
+  
+  
+}
+
+
+#mainpic{
+  
+  display:flex;
+  justify-content: center;
+  background-image: url('./pics/background.png');
+  background-size: cover;
+  flex-direction: column;
+  font-family: 'Assistant', sans-serif;
+  align-items: center;
+}
+
+#logo{
+  
+
+  margin-top: 50px
+}
+
+#call{
+  width:30%;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius:30px;
+  justify-content: center;
+
+}
+
+#info{
+  
+  display:flex;
+  justify-content: space-around;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  
+}
+
+#info span{
+  width: 30%;
+  
+}
+
+#info img{
+  width:100%
+}
+
+#info button{
+  width:80%;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 10px;
+  color: white;
+  background-color:black;
+
+}
+
+#info button:hover{
+  color:orangered
+}
+
+#bottomimage{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  height:100px;
+  background-image: url('./pics/bar.png');
+  margin-top:50px
+}
+
+#bottom{
+  margin-top: 50px;
+  
+  background-color: #F86C57;
+  display: flex;
+  justify-content: center;
+}
+
+
+#button{
+  height:40px;
+  width: 100px;
+  align-items: center;
+  margin-top:auto;
+  margin-bottom:auto
+}
+
+#pink{
+  color: #FC6C57
 }
