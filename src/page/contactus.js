@@ -15,7 +15,7 @@ const Contact = ()=>{
               <button style={{ backgroundColor: "green" }}>
                 Bail Bonds: 000-000-0000
               </button>
-              <button style={{ backgroundColor: "white", position:"relative", left:"0px" }}>
+              <button style={{ color: "black", position:"relative", left:"0px" }}>
                 Email us: email@email.com
               </button>
             </span>

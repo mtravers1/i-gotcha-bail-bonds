@@ -12,7 +12,7 @@ function App() {
       <div id="main">
         
         <Navbar/>
-        <Bailresources/>
+        <Home/>
 
 
 

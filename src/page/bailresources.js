@@ -36,7 +36,7 @@ const Bailresources = () => {
         </span>
       </div>
       <div id="case">
-        <span style={{width:"60%"}}>
+        <span  id="cases" >
           <h1>Case, Arrest and Search warrenr</h1>
           <h2>Browdard</h2>
           <p>Jail: Click here</p>
@@ -48,23 +48,13 @@ const Bailresources = () => {
           <p>Jail: Click here</p>
           <p>Case Search: Click Here</p>
           <span id="resourcebutton">
-            <button
-              style={{
-                backgroundColor: "green",
-                position: "relative",
-                left: "140px",
-                bottom: "60px",
-              }}
+            <button id="greenbutton"
+              
             >
               Bail Bonds: 000-000-0000
             </button>
-            <button
-              style={{
-                backgroundColor: "black",
-                position: "relative",
-                left: "140px",
-                bottom: "60px",
-              }}
+            <button id= "blackbutton"
+              
             >
               Email us: email@email.com
             </button>
