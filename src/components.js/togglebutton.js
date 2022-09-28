@@ -1,5 +1,11 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import{  BrowserRouter as Switch,
+  Link,
+  Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 const Togglebutton = () => {
   const [togglenav, setTogglenav] = useState(false);
@@ -12,7 +18,7 @@ const Togglebutton = () => {
     <div id="tnavbar">
       <span id="ttitle">
         <span id="pink"> I Gotcha</span>
-         Bail Bond
+        Bail Bond
       </span>
       <button onClick={toggle} class="togglebutton">
         <FaBars />
@@ -22,22 +28,22 @@ const Togglebutton = () => {
           {togglenav && (
             <span class="navlist">
               <li>
-                <a href="#">Home</a>
+                <Link to="./home">Home</Link>
               </li>
               <li>
-                <a href="#">Bail Resources</a>
+                <Link to="./bailresources">Bail Resources</Link>
               </li>
               <li>
-                <a href="#">Post Bail Option</a>
+                <Link to="./postbail">Post Bail Option</Link>
               </li>
               <li>
-                <a href="#">About</a>
+                <Link>About</Link>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <Link to="./contact">Contact</Link>
               </li>
               <li>
-                <a href="#">Reviews</a>
+                <Link>Reviews</Link>
               </li>
 
               {/* <button>
