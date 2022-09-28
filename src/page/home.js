@@ -4,11 +4,14 @@ import g1 from '../pics/1.png'
 import g2 from '../pics/2.png'
 import g3 from '../pics/3.png'
 import bar from '../pics/bar.png'
+import Togglebutton from '../components.js/togglebutton'
+
 
 const Home = ()=>{
     return(
         <div id="home">
             <div id="mainpic">
+                
                 <div style={{width:"100%"}}>
                 <span>
                 <img id="logo" src={woman} alt="logo" />

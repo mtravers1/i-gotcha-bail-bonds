@@ -5,19 +5,15 @@ import Home from './page/home';
 import Postbail from './page/postbail'
 import Bailresources from './page/bailresources';
 import Contact from './page/contactus';
-
+import Togglebutton from './components.js/togglebutton';
+import {BrowserRouter as Link, Router, Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
       <div id="main">
-        
-        <Navbar/>
-        <Home/>
-
-
-
-
-
+        <Navbar />
+        <Togglebutton />
+        <Home />
       </div>
     </div>
   );

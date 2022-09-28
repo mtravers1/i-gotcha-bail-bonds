@@ -16,11 +16,22 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   color: black;
+
 }
 
-#navlist {
-  display: flex;
+#navbar a:hover {
+  color: #f86c57;
+
 }
+
+.navlist {
+  display: flex;
+  flex-wrap:wrap
+}
+#ttitle{
+  display:none
+}
+
 
 #mainpic {
   display: flex;
@@ -271,6 +282,12 @@ h1 {
   font-size: 24px;
 }
 
+.togglebutton{
+  position:absolute;
+  right:1rem;
+  display:none;
+}
+
 @media (max-width: 700px) {
   #info {
     display: block;
@@ -278,8 +295,9 @@ h1 {
     margin-right: auto;
   }
 
-  #title {
-    display: none;
+  #ttitle {
+    display: flex;
+    flex-direction: column;
   }
 
   #navbar li {
@@ -362,5 +380,51 @@ h1 {
 }
 #bail form{
   width: 100%;
+}
+.togglebutton{
+  position:absolute;
+  right:1rem;
+  display:flex;
+  background:none;
+  border: none;
+  color:#fc6c57
+}
+
+
+
+#navbar ul{
+  flex-direction: column;
+  width: 100%;
+}
+
+#navbar{
+  display: none;
+}
+
+#tnavbar{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#tnavbar ul{
+  list-style: none;
+      width: 100%;
+    padding: 0;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.navlist a{
+  text-decoration: none;
+  color:black
+
+}
+.navlist a:hover{
+  text-decoration: none;
+  color:#fc6c57
+
 }
 }
