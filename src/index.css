@@ -45,9 +45,14 @@ body {
 
 #logo {
   margin-top: 50px;
+  width: 203px;
 }
 #maintext {
-  font-size: 60px;
+  font-size: 57px;
+}
+
+#maintext p{
+  margin:0px
 }
 
 #secondarytext {

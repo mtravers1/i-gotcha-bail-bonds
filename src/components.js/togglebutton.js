@@ -17,7 +17,7 @@ const Togglebutton = () => {
   return (
     <div id="tnavbar">
       <span id="ttitle">
-        <span id="pink"> I Gotcha</span>
+        <span id="pink"> </span>
         Bail Bond
       </span>
       <button onClick={toggle} class="togglebutton">
